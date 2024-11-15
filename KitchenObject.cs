@@ -34,7 +34,7 @@ public class KitchenObject : MonoBehaviour
         return kitchenObjectParent;
     }
 
-    public void DestrpySelf()
+    public void DestroySelf()
     {
         kitchenObjectParent.ClearKitchenObject();
         Destroy(gameObject);
